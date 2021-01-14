@@ -38,4 +38,4 @@ Having an implicit connection in scope, we can start transacting and querying `s
 
 Add/change definitions in the SampleDataModel and run `sbt clean compile -Dmolecule=true` in your project root to have Molecule re-generate boilerplate code. Then you can try out using your new attributes in new molecules in `SampleApp`.
 
-For more info, visit the [Molecule website](http://scalamolecule.org)
+For more info, visit the [Molecule website](http://scalamolecule∑.org)
