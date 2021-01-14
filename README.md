@@ -17,9 +17,9 @@ The projects are organized according to the following matrix of system combinati
 
 Each project has 3 resources of interest:
 
-- The `build.sbt` file that shows a minimal sbt project setup
+- The `build.sbt` file that shows a minimal sbt project setup,
 - A readme file describing the steps necessary to start using this setup, and
-- A SampleApp that you can run to confirm that everything works.
+- A `SampleApp` that you can run to confirm that everything works.
 
 Have fun!
 
