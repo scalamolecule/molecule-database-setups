@@ -1,4 +1,4 @@
-## Molecule sample project using a free Datomic Peer in-mem database
+## Molecule sample project using a free Datomic Peer in-mem database (protocol: mem)
 
 Minimal project setup to persist data to disk with [Molecule](http://scalamolecule.org) and a free [Datomic Peer](https://docs.datomic.com/on-prem/peer-getting-started.html) dev database.
 
