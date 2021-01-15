@@ -1,4 +1,4 @@
-# Molecule sample projects
+# Molecule database setups
 
 To ease setting up various Molecule/Datomic configurations, 7 sample projects are provided here to get your started with the setup that best suits your combination of requirements.
 

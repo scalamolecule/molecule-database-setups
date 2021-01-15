@@ -1,9 +1,8 @@
 import sbt.Keys._
 
-
 lazy val demo = project.in(file("."))
   .aggregate(app)
-  .settings(name := "molecule-sample-datomic-devlocal")
+  .settings(name := "molecule-datomic-devlocal")
 
 lazy val app = project.in(file("app"))
   .enablePlugins(MoleculePlugin)

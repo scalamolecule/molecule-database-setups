@@ -2,7 +2,7 @@ import sbt.Keys._
 
 lazy val demo = project.in(file("."))
   .aggregate(app)
-  .settings(name := "molecule-sample-datomic-peerserver-dev")
+  .settings(name := "molecule-datomic-peerserver-dev")
 
 lazy val app = project.in(file("app"))
   .enablePlugins(MoleculePlugin)
