@@ -1,6 +1,6 @@
 ## Molecule sample project using a starter/pro Datomic Peer in-mem database
 
-Minimal project setup to persist data to disk with [Molecule](http://scalamolecule.org) and a starter/pro [Datomic Peer](https://docs.datomic.com/on-prem/peer-getting-started.html) dev database.
+Minimal project setup to persist data to disk with [Molecule](http://scalamolecule.org) and a starter/pro [Datomic Peer](https://docs.datomic.com/on-prem/peer-getting-started.html) in-mem database.
 
 
 ### 1. Connect to Peer
