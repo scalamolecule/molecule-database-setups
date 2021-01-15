@@ -19,9 +19,11 @@ lazy val app = project.in(file("app"))
       "com.datomic" % "dev-local" % "0.9.229"
     ),
 
+    // path to domain model directory
+    moleculeDataModelPaths := Seq("app"),
+
     // Generate Molecule boilerplate code with `sbt clean compile -Dmolecule=true`
     moleculePluginActive := sys.props.get("molecule") == Some("true"),
-    moleculeDataModelPaths := Seq("app"), // path to domain model directory
 
     // Let IDE detect created jars in unmanaged lib directory
     exportJars := true

@@ -11,7 +11,7 @@ lazy val app = project.in(file("app"))
     resolvers ++= Seq(
       Resolver.sonatypeRepo("releases"),
       "clojars" at "https://clojars.org/repo",
-      "my.datomic.com" at "https://my.datomic.com/repo",
+      "my.datomic.com" at "https://my.datomic.com/repo"
     ),
     /*
       Downloading Datomic Starter/Pro requires authentication of your license:
@@ -35,9 +35,11 @@ lazy val app = project.in(file("app"))
     // Important to exclude fee version when using pro to avoid clashes with pro version
     excludeDependencies += ExclusionRule("com.datomic", "datomic-free"),
 
+    // path to domain model directory
+    moleculeDataModelPaths := Seq("app"),
+
     // Generate Molecule boilerplate code with `sbt clean compile -Dmolecule=true`
     moleculePluginActive := sys.props.get("molecule") == Some("true"),
-    moleculeDataModelPaths := Seq("app"), // path to domain model directory
 
     // Let IDE detect created jars in unmanaged lib directory
     exportJars := true

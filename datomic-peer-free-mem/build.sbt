@@ -10,7 +10,7 @@ lazy val app = project.in(file("app"))
     scalaVersion := "2.13.4",
     resolvers ++= Seq(
       Resolver.sonatypeRepo("releases"),
-      "clojars" at "https://clojars.org/repo",
+      "clojars" at "https://clojars.org/repo"
     ),
 
     libraryDependencies ++= Seq(
@@ -18,9 +18,11 @@ lazy val app = project.in(file("app"))
       "com.datomic" % "datomic-free" % "0.9.5697"
     ),
 
+    // path to domain model directory
+    moleculeDataModelPaths := Seq("app"),
+
     // Generate Molecule boilerplate code with `sbt clean compile -Dmolecule=true`
     moleculePluginActive := sys.props.get("molecule") == Some("true"),
-    moleculeDataModelPaths := Seq("app"), // path to domain model directory
 
     // Let IDE detect created jars in unmanaged lib directory
     exportJars := true
