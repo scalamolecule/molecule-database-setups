@@ -28,7 +28,7 @@ lazy val app = project.in(file("app"))
     credentials += Credentials(Path.userHome / ".sbt" / ".credentials"),
 
     libraryDependencies ++= Seq(
-      "org.scalamolecule" %% "molecule" % "0.23.3-SNAPSHOT",
+      "org.scalamolecule" %% "molecule" % "0.24.0",
       "com.datomic" % "datomic-pro" % "1.0.6222"
     ),
 

@@ -15,7 +15,7 @@ lazy val app = project.in(file("app"))
     ),
 
     libraryDependencies ++= Seq(
-      "org.scalamolecule" %% "molecule" % "0.23.3-SNAPSHOT",
+      "org.scalamolecule" %% "molecule" % "0.24.0",
       "com.datomic" % "dev-local" % "0.9.229"
     ),
 
