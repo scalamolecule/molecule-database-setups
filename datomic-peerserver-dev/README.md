@@ -1,6 +1,6 @@
 ## Molecule sample project using a starter/pro Datomic Peer Server persisted database (protocol: dev)
 
-Minimal project setup to persist data to disk with [Molecule](http://scalamolecule.org) and a [Datomic Peer Server](https://docs.datomic.com/on-prem/peer-server.html) persisted database (protocol: dev).
+Minimal project setup to persist data to disk with [Molecule](http://scalamolecule.org) and a [Datomic Peer Server](https://docs.datomic.com/on-prem/peer-server.html) database (protocol: dev).
 
            
 ### 1. Start transactor

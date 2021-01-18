@@ -1,6 +1,6 @@
 ## Molecule sample project using a starter/pro Datomic Peer Server in-mem database
 
-Minimal project setup to test using [Molecule](http://scalamolecule.org) with a [Datomic Peer Server](https://docs.datomic.com/on-prem/peer-server.html) in-mem database.
+Minimal project setup to test using [Molecule](http://scalamolecule.org) with a [Datomic Peer Server](https://docs.datomic.com/on-prem/peer-server.html) in-memory database (protocol: mem).
 
 ### 1. Start Peer Server
 

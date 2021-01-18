@@ -1,6 +1,6 @@
 ## Molecule sample project using a free Datomic Peer persisted database (protocol: free)
 
-Minimal project setup to persist data to disk with [Molecule](http://scalamolecule.org) and a free [Datomic Peer](https://docs.datomic.com/on-prem/peer-getting-started.html) persisted database (protocol: free).
+Minimal project setup to persist data to disk with [Molecule](http://scalamolecule.org) and a free [Datomic Peer](https://docs.datomic.com/on-prem/peer-getting-started.html) database (protocol: free).
 
 
 ### 1. Start transactor
